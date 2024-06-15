@@ -48,7 +48,7 @@ const Hero = () => {
               Hello, I am
             </p>
             <h1
-              className={`${monty.className} text-[2.5rem] md:text-[3.25rem] font-semibold italic text-teal-600  md:px-4`}>
+              className={`${monty.className} text-[2.5rem] md:text-[3.25rem] font-semibold  text-teal-600  md:px-4`}>
               Aayman Khalid
             </h1>
             <div className="flex items-center gap-x-1 px-4">

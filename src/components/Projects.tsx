@@ -68,7 +68,7 @@ const Projects = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ ease: "easeIn", duration: 0.75, delay: 0.5 }}
-            className={`${monty.className} w-full md:w-1/3`}>
+            className={`${monty.className} w-full py-2 md:py-0  flex flex-col items-center md:w-1/3`}>
             {projects.map((project, i) => (
               <button key={i} onClick={() => setId(i)}>
                 <p
