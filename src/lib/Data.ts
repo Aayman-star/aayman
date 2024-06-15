@@ -66,7 +66,7 @@ export const Skills = [
   "HTML",
   "CSS",
   "Nextjs",
-  "React",
+  "Reactjs",
   "Typescript",
   "javascript",
   "Python",
