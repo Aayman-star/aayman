@@ -20,7 +20,7 @@ const About = () => {
             </Link>
           </h1>
         </header> */}
-        <main className="w-full md:max-w-5xl h-[90vh] flex-1 flex flex-col md:flex-row md:items-center md:justify-between  py-20 px-5 md:px-10 md:py-28">
+        <main className="w-full lg:max-w-5xl h-[90vh] flex-1 flex flex-col md:flex-row md:items-center md:justify-between  py-20 px-5 md:px-10 md:py-28">
           {/* This is the hero div for the image and the content  */}
           <motion.div
             initial={{ opacity: 0 }}
