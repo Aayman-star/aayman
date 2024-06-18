@@ -87,7 +87,7 @@ const Hero = () => {
 
             {/* Social Links  */}
             <div className="flex items-center  md:my-10  md:px-2  w-3/4 ">
-              <div className="border-[1px] border-zinc-500 p-2 rounded-lg mx-2">
+              <div className="border-[1px] border-zinc-500 p-2 rounded-full mx-2">
                 <a
                   href="https://github.com/Aayman-star"
                   target="_blank"
@@ -95,12 +95,12 @@ const Hero = () => {
                   <FaGithub className="text-zinc-400 text-xl " />
                 </a>
               </div>
-              <div className="border-[1px] border-zinc-500 p-2 rounded-lg mx-2">
+              <div className="border-[1px] border-zinc-500 p-2 rounded-full mx-2">
                 <a href="#">
                   <FaXTwitter className="text-zinc-400 text-xl" />
                 </a>
               </div>
-              <div className="border-[1px] border-zinc-500 p-2 rounded-lg mx-2">
+              <div className="border-[1px] border-zinc-500 p-2 rounded-full mx-2">
                 <a
                   href="https://www.linkedin.com/in/aayman-khalid/"
                   target="_blank"
@@ -109,7 +109,7 @@ const Hero = () => {
                 </a>
               </div>
 
-              <div className="border-[1px] border-zinc-500 p-2 rounded-lg mx-2">
+              <div className="border-[1px] border-zinc-500 p-2 rounded-full mx-2">
                 <a
                   href="mailto:emailto:aayman.khalid1@gmail.com"
                   target="_blank"
