@@ -121,7 +121,7 @@ const ProjectDisplayMobile = ({ Id }: prop) => {
       transition={{ ease: "easeIn", duration: 0.75, delay: 0.5 }}
       className={`${monty.className} w-full h-auto px-4 py-4 my-4 bg-zinc-950/50 rounded-lg shadow-sm border-[1px] border-zinc-800/50   grid place-content-center gap-y-2  shadow-teal-500/10`}>
       <h3
-        className={`${space_g.className} text-zinc-400 underline decoration-teal-500/50 text-2xl  font-semibold text-center m-2`}>
+        className={`${space_g.className} text-zinc-300 underline decoration-teal-500/50 text-2xl  font-semibold text-center m-2`}>
         {projects[Id].Title}
       </h3>
       <p className={` text-zinc-400 text-center text-sm font-semibold`}>
@@ -136,12 +136,12 @@ const ProjectDisplayMobile = ({ Id }: prop) => {
           alt="project-snapshot"
         />
       </a>{" "}
-      <p className="text-zinc-300 text-sm w-[300px] mx-auto">
+      <p className="text-zinc-300 text-sm  mx-auto px-3">
         {projects[Id].description}
       </p>
       <div className="w-[300px] mx-auto">
         {" "}
-        <p className="text-zinc-300 font-semibold">Stack</p>
+        <p className="text-zinc-300 font-semibold px-3">Stack</p>
       </div>
       <div className="w-[300px] mx-auto">
         <ul className="list-disc ml-6 ">
