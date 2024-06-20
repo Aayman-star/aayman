@@ -19,7 +19,7 @@ const Projects = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ ease: "easeIn", duration: 0.75, delay: 0.5 }}
-        className={`${monty.className} w-full h-auto py-4 md:py-0 md:w-[25rem] md:h-[25rem] lg:w-[30rem] lg:h-[30rem] bg-zinc-950/50 rounded-lg shadow-sm border-[1px] border-zinc-800/50  md:m-10 grid place-content-center gap-y-2`}>
+        className={`${monty.className} w-full h-auto py-4 md:py-0 md:w-[25rem] md:h-[25rem] lg:w-[30rem] lg:h-[30rem] bg-zinc-950/50 rounded-lg shadow-sm border-[1px] border-zinc-800/50  md:m-10 grid place-content-center gap-y-2 shadow-teal-500/10`}>
         <h3
           className={`${space_g.className} text-zinc-300 text-2xl  font-semibold text-center m-2`}>
           {projects[id].details}
