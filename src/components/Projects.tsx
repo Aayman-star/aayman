@@ -74,7 +74,7 @@ const Projects = () => {
             {projects.map((project, i) => (
               <button className="" key={i} onClick={() => setId(i)}>
                 <p
-                  className={`${monty.className}  text-teal-500 bg-zinc-950/50 m-2 md:m-4 text-center w-[20rem] h-[3.5rem] py-4 font-semibold rounded-md border-[1px] border-zinc-800/50`}>
+                  className={`${monty.className}  text-teal-500 bg-zinc-950/50 m-2 md:m-4 text-center w-[20rem] h-[3.5rem] py-4 font-semibold rounded-md border-[1px] border-zinc-800/50 shadow-sm shadow-teal-500/10 transition ease-in hover:scale-105`}>
                   {project.Title}
                 </p>
               </button>
@@ -119,11 +119,14 @@ const ProjectDisplayMobile = ({ Id }: prop) => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ ease: "easeIn", duration: 0.75, delay: 0.5 }}
-      className={`${monty.className} w-full h-auto py-4 my-4 bg-zinc-950/50 rounded-lg shadow-sm border-[1px] border-zinc-800/50   grid place-content-center gap-y-2`}>
+      className={`${monty.className} w-full h-auto px-4 py-4 my-4 bg-zinc-950/50 rounded-lg shadow-sm border-[1px] border-zinc-800/50   grid place-content-center gap-y-2  shadow-teal-500/10`}>
       <h3
-        className={`${space_g.className} text-zinc-300 text-2xl  font-semibold text-center m-2`}>
-        {projects[Id].details}
+        className={`${space_g.className} text-zinc-400 underline decoration-teal-500/50 text-2xl  font-semibold text-center m-2`}>
+        {projects[Id].Title}
       </h3>
+      <p className={` text-zinc-400 text-center text-sm font-semibold`}>
+        {projects[Id].details}
+      </p>
       <a href={projects[Id].url} target="_blank">
         <Image
           className="mx-auto rounded-sm transition ease-in delay-150 hover:scale-105"

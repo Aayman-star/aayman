@@ -6,7 +6,7 @@ import pf from "/public/image/pf-1.png";
 export const projects = [
   {
     id: 1,
-    Title: "Panaverse Landing Page",
+    Title: "Panaverse Dao Website",
     details: "Panaverse Landing Page",
     img: panaverse,
     description: "A simple one page website for Panaverse Dao.",
