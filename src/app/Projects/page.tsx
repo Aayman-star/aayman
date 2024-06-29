@@ -1,5 +1,10 @@
 import React from "react";
 import Projects from "@/components/Projects";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Projects",
+};
 
 const page = () => {
   return (

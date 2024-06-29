@@ -49,6 +49,17 @@ const Projects = () => {
             ))}
           </ul>
         </div>
+        {/* <div className="w-[65%] mx-auto">
+          <ul className="flex flex-wrap gap-4 px-2">
+            {projects[id].Stack?.map((item, i) => (
+              <li
+                className="font-light text-xs text-zinc-200 px-2 py-1 bg-zinc-800/50 border-2 border-teal-500/50 rounded-md shadow-md shadow-teal-500/500 "
+                key={i}>
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div> */}
       </motion.div>
     );
   };
@@ -146,7 +157,7 @@ const ProjectDisplayMobile = ({ Id }: prop) => {
       <div className="w-[300px] mx-auto">
         <ul className="list-disc ml-6 ">
           {projects[Id].Stack?.map((item, i) => (
-            <li className="font-extralight text-xs text-zinc-300" key={i}>
+            <li className="font-light text-xs text-zinc-200" key={i}>
               {item}
             </li>
           ))}

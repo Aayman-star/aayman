@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   // title: "Aayman Khalid",
   metadataBase: new URL("https://aayman.vercel.app/"),
-  title: { default: "Aayman Khalid", template: "%s | Aayman Khalid" },
+  title: { default: "Aayman Khalid", template: "%s  |  Aayman Khalid" },
   description: "Software Engineer and Developer",
 };
 
