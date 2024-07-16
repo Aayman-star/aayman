@@ -87,34 +87,34 @@ const Hero = () => {
 
             {/* Social Links  */}
             <div className="flex items-center  md:my-10  md:px-2  w-3/4 ">
-              <div className="border-[1px] border-zinc-500 p-2 rounded-full mx-2">
+              <div className="border-[1px] border-zinc-500/50 p-2 rounded-lg mx-2 hover:border-zinc-300 hover:scale-105 transition-all ease-in">
                 <a
                   href="https://github.com/Aayman-star"
                   target="_blank"
                   rel="noopener noreferrer">
-                  <FaGithub className="text-zinc-400 text-xl " />
+                  <FaGithub className="text-zinc-500 text-xl hover:text-zinc-300" />
                 </a>
               </div>
-              <div className="border-[1px] border-zinc-500 p-2 rounded-full mx-2">
+              <div className="border-[1px] border-zinc-500/50 p-2 rounded-lg mx-2 hover:border-zinc-300 hover:scale-105 transition-all ease-in">
                 <a href="#">
-                  <FaXTwitter className="text-zinc-400 text-xl" />
+                  <FaXTwitter className="text-zinc-500 text-xl hover:text-zinc-300" />
                 </a>
               </div>
-              <div className="border-[1px] border-zinc-500 p-2 rounded-full mx-2">
+              <div className="border-[1px] border-zinc-500/50 p-2 rounded-lg mx-2 hover:border-zinc-300 hover:scale-105 transition-all ease-in">
                 <a
                   href="https://www.linkedin.com/in/aayman-khalid/"
                   target="_blank"
                   rel="noopener noreferrer">
-                  <FaLinkedin className="text-zinc-400 text-xl" />
+                  <FaLinkedin className="text-zinc-500 text-xl hover:text-zinc-300" />
                 </a>
               </div>
 
-              <div className="border-[1px] border-zinc-500 p-2 rounded-full mx-2">
+              <div className="border-[1px] border-zinc-500/50 p-2 rounded-lg mx-2 hover:border-zinc-300 hover:scale-105 transition-all ease-in">
                 <a
                   href="mailto:emailto:aayman.khalid1@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer">
-                  <MdEmail className="text-zinc-400 text-xl" />
+                  <MdEmail className="text-zinc-500 text-xl hover:text-zinc-300" />
                 </a>
               </div>
             </div>
