@@ -40,16 +40,16 @@ const Projects = () => {
           {" "}
           <p className="text-zinc-300 font-semibold">Stack</p>
         </div>
-        <div className="w-[300px] mx-auto">
+        {/* <div className="w-[300px] mx-auto">
           <ul className="list-disc ml-6 ">
             {projects[id].Stack?.map((item, i) => (
-              <li className="font-extralight text-xs text-zinc-300" key={i}>
+              <li className="font-light text-sm text-zinc-300" key={i}>
                 {item}
               </li>
             ))}
           </ul>
-        </div>
-        {/* <div className="w-[65%] mx-auto">
+        </div> */}
+        <div className="w-[65%] mx-auto">
           <ul className="flex flex-wrap gap-4 px-2">
             {projects[id].Stack?.map((item, i) => (
               <li
@@ -59,7 +59,7 @@ const Projects = () => {
               </li>
             ))}
           </ul>
-        </div> */}
+        </div>
       </motion.div>
     );
   };

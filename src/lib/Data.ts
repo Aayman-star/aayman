@@ -1,17 +1,26 @@
 import panaverse from "/public/image/panaverse.png";
-import taskwise from "/public/image/taskwise.png";
+import taskwise from "/public/image/taskwise-screenshot.png";
 import portfolio from "/public/image/portfolio-dark.png";
-import pf from "/public/image/pf-1.png";
+import timetracker from "/public/image/timetracker-screenshot.png";
+import pf from "/public/image/portfolio-screenshot.png";
 
 export const projects = [
   {
     id: 1,
-    Title: "Panaverse Dao Website",
-    details: "Panaverse Landing Page",
-    img: panaverse,
-    description: "A simple one page website for Panaverse Dao.",
-    Stack: ["Nextjs", "Typescript", "Tailwindcss", "react-reveal"],
-    url: "https://panaversetailwind-aayman-star.vercel.app/",
+    Title: "The Time Tracker",
+    details: "Timer & Stopwatch together with a memory!",
+    img: timetracker,
+    description:
+      "Timer & Stopwatch components together giving you the freedom of choice.",
+    Stack: [
+      "Nextjs",
+      "Typescript",
+      "Tailwindcss",
+      "shadcn ui",
+      "clerk",
+      "postgres",
+    ],
+    url: "https://thetimetracker.vercel.app/",
   },
   {
     id: 2,
@@ -19,18 +28,29 @@ export const projects = [
     details: "Remix of a simple todo app",
     img: taskwise,
     description:
-      "A simple Todo app with basic CRUD operations and an added feature of uncheching the checked tasks.",
+      "A simple Todo app with basic CRUD operations and an added feature of uncheching the checked tasks.Now reveamped with clerk auth.",
     Stack: [
       "Nextjs",
       "Typescript",
       "Tailwindcss",
-      "Shadcn",
-      "vercel postgres database",
+      "Shadcn ui",
+      "clerk",
+      "postgres",
     ],
-    url: "https://task-wise-indol.vercel.app/",
+    url: "https://task-wise-alpha.vercel.app/",
   },
   {
     id: 3,
+    Title: "Panaverse Dao Website",
+    details: "Panaverse Landing Page",
+    img: panaverse,
+    description: "Landing page for Panaverse Dao.",
+    Stack: ["Nextjs", "Typescript", "Tailwindcss", "react-reveal"],
+    url: "https://panaversetailwind-aayman-star.vercel.app/",
+  },
+
+  {
+    id: 4,
     Title: "Simple",
     details: "A simple hassle free portfolio template",
     img: portfolio,
@@ -46,12 +66,12 @@ export const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     Title: "Personal Portfolio",
     details: "Personal Portfolio made with Nextjs",
     img: pf,
     description: "Personal Portfolio Project built with Nextjs",
-    url: "https://aaymankhalid.vercel.app/",
+    url: "https://aayman.vercel.app/",
     Stack: ["Nextjs", "Typescript", "Tailwindcss"],
   },
 ];
