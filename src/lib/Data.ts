@@ -52,7 +52,7 @@ export const projects = [
   {
     id: 4,
     Title: "Simple",
-    details: "A simple hassle free portfolio template",
+    details: "A no-hassle portfolio template",
     img: portfolio,
     description:
       "A portfolio/resume template to create your digital signature instantly!",
@@ -68,7 +68,7 @@ export const projects = [
   {
     id: 5,
     Title: "Personal Portfolio",
-    details: "Personal Portfolio made with Nextjs",
+    details: "Personal Portfolio website",
     img: pf,
     description: "Personal Portfolio Project built with Nextjs",
     url: "https://aayman.vercel.app/",
