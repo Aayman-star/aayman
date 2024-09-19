@@ -3,6 +3,7 @@ import taskwise from "/public/image/taskwise-screenshot.png";
 import portfolio from "/public/image/portfolio-dark.png";
 import timetracker from "/public/image/timetracker-screenshot.png";
 import pf from "/public/image/portfolio-screenshot.png";
+import img1 from "/public/image/test.png";
 
 export const projects = [
   {
@@ -74,6 +75,24 @@ export const projects = [
     url: "https://aayman.vercel.app/",
     Stack: ["Nextjs", "Typescript", "Tailwindcss"],
   },
+  {
+    id: 6,
+    Title: "Dine Market",
+    details: "Fullstack e-commerce store",
+    img: img1,
+    description:
+      "A Fullstack project utilising the full capablilities of Nextjs.",
+    url: "https://hackathon1-omega.vercel.app/",
+    Stack: [
+      "Nextjs",
+      "Typescript",
+      "Tailwindcss",
+      "Sanity",
+      "stripe",
+      "React-Redux",
+      "postgres",
+    ],
+  },
 ];
 
 export const AboutMe = `I have a Bachelors in Computer Engineering.This is where I developed my love for coding and software.The fascinating part of programming for me is logic development,  a trait that forces one to slow down and focus on the real problems.
@@ -91,4 +110,5 @@ export const Skills = [
   "javascript",
   "Python",
   "Tailwindcss",
+  "Postgres",
 ];

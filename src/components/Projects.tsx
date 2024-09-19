@@ -85,7 +85,7 @@ const Projects = () => {
             {projects.map((project, i) => (
               <button className="" key={i} onClick={() => setId(i)}>
                 <p
-                  className={`${monty.className}  text-teal-500 bg-zinc-950/50 m-2 md:m-4 text-center w-[20rem] h-[3.5rem] py-4 font-semibold rounded-md border-[1px] border-zinc-800/50 shadow-sm shadow-teal-500/10 transition ease-in hover:scale-105`}>
+                  className={`${monty.className}  text-teal-500 bg-zinc-950/50 m-2 md:mx-4 md:my-3 text-center w-[20rem] h-[3.5rem] py-4 font-semibold rounded-md border-[1px] border-zinc-800/50 shadow-sm shadow-teal-500/10 transform transition-all ease-in hover:scale-105 duration-300`}>
                   {project.Title}
                 </p>
               </button>
